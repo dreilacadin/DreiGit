@@ -1,0 +1,57 @@
+li {
+	list-style: none;
+}
+
+.has-image-centered {
+  margin-left: auto;
+  margin-right: auto;
+  height: 250px!important;
+  width: 250px!important;
+  border: 5px ridge gray;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-top: 60px;
+}
+
+.has-image-centered:hover {
+	box-shadow: 0 0 30px #00d1b2 !important;
+	transition: 0.7s;
+}
+
+.landing-name, h1 {
+	font-family: 'Playfair Display SC', serif !important;
+	/*font-style: italic !important;*/
+	font-weight: bold !important;
+	text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.19);
+}
+
+h2, p, h3, button, a {
+	font-family: 'Montserrat', sans-serif !important;
+	text-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.button:hover {
+	transition: 0.7s;
+	text-decoration: none;
+}
+
+.social-icons a {
+   text-decoration:none;
+   color: inherit !important;
+}
+
+.navbar.transparent.navbar-inverse .navbar-inner {
+    border-width: 0px;
+    -webkit-box-shadow: 0px 0px;
+    box-shadow: 0px 0px;
+    background-color: rgba(0,0,0,0.0);
+    background-image: -webkit-gradient(linear, 50.00% 0.00%, 50.00% 100.00%, color-stop( 0% , rgba(0,0,0,0.00)),color-stop( 100% , rgba(0,0,0,0.00)));
+    background-image: -webkit-linear-gradient(270deg,rgba(0,0,0,0.00) 0%,rgba(0,0,0,0.00) 100%);
+    background-image: linear-gradient(180deg,rgba(0,0,0,0.00) 0%,rgba(0,0,0,0.00) 100%);
+}
+
+.has-equal-height {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}

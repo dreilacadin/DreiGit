@@ -1,0 +1,96 @@
+/*CSS Reset*/
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+header#mainHeader {
+	background-color: #EA9828;
+	min-height: 10vh;
+	font-family: 'Work Sans', sans-serif;
+}
+
+header#mainHeader div {
+	height: 100%;
+	width: 50%;
+	float: left;
+}
+
+header#mainHeader > div > h2 {
+	line-height: 10vh;
+	margin-left: 15px;
+}
+
+header#mainHeader > div > h2 > a {
+	color: black;
+	text-decoration: none;
+}
+
+header#mainHeader > div:last-child > ul {
+	list-style: none;
+	text-align: right;
+}
+
+header#mainHeader > div:last-child > ul > li {
+	display: inline;
+	line-height: 10vh;
+	margin-right: 15px;
+}
+
+header#mainHeader > div:last-child > ul > li > a {
+	color: black;
+	text-decoration: none;
+}
+
+body {
+	background-color: #323232;
+	font-family: 'Oswald', sans-serif;
+}
+
+main#wrapper {
+	background-color: #E9E9E9;
+	width: 80%;
+	margin: 0 auto;
+	min-height: 100vh;
+	padding: 25px;
+}
+
+main#wrapper > h1 {
+	font-family: 'Oswald', sans-serif;
+	text-align: center;
+	padding-bottom: 10px;
+}
+
+main#wrapper > img {
+	width: 100%;
+	height: auto;
+	border-radius: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+main#wrapper > ul {
+	list-style: none;
+	font-family: 'Oswald', sans-serif;
+	text-align: center;
+}
+
+main#wrapper > ul > li {
+	display: inline-block;
+	margin-right: 15px;
+	padding: 15px;
+}
+
+main#wrapper > ul > li > a {
+	text-decoration:  none;
+	color: black;
+}
+
+footer#mainFooter {
+	background-color: #EA9828;
+	min-height: 5vh;
+	padding: 15px;
+	text-align: center;
+}

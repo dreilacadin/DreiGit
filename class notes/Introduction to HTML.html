@@ -1,0 +1,298 @@
+<!-- Many web pages act like electronic versions of documents -->
+
+Hyper Text Markup Language (HTML) describes the STRUCTURE of web pages
+
+Activity 1
+
+1. create a folder named mod01-01 in Documents
+2. create a file called index.html
+3. create the assets folder also (img,css,js) folders
+4. open index.html in sublime text
+
+Document Structure:
+<!-- Headings -->
+- Provide the title or theme for each section of the page
+- There are six levels (or "ranks") of headings - h1, h2 ,h3, h4, h5, h6
+- Headings of the same level imply equal rank on the page
+- Block elements
+
+Do's:
+
+1. Make sure each tag supports its preceding sequential number when using H3, H4, H5 & H6 tas.
+2. Include only one H1 tag on each page. It should describe the topic of your page.
+3. Create a direct correlation between the language used in your H1 header and your Title tag.
+
+Dont's:
+1. Use the same heading on every page.
+2. Use heading tags solely to increase font size.
+3. Use heading tags for lage bodies of text. (20-70 characters should be enough)
+
+<!-- Paragraphs -->
+- Defines a simple paragraph of text
+- Block element
+
+<!-- Divisions -->
+<div></div>
+
+<div align=""> - to align divs
+
+	<!-- Spans -->
+	- Used to create inline elements
+
+	<p lang="en-US">This paragraph is written in American english.</p>
+
+	<!-- Line Break -->
+	- Defines a break in a line
+
+	<!-- Horizontal Rule -->
+	- Creates break between themes -- such as a change of topic in a book or a new scene in a play
+	- adds a horizontal line by default
+	- Block element
+
+	<!-- Text Formatting -->
+	- Strong
+
+	<!-- Bold vs Strong -->
+	- Bold Tag - not a logical tag, it styles text by making it bold; It does not give text any meaning
+	- Strong Tag - a logical tag, it styles text and also gives it meaning
+
+	Scenario: suppose that a screen reader is running on a web page. When it sees a <strong> tag</strong> 
+
+	<!-- Emphasis -->
+	- Indicastes emphasis that subtly changes the meaning of the sentence.
+	-<em></em>
+
+	<!-- Superscript -->
+	- Used to contain characters that should be superscript such as the suffixes of dates or mathematical concepts like exponents.
+	<sup></sup>
+
+	<!-- Subscript -->
+	- Used to contain characters that should be subscript such as the numbers in elements.
+	<sub></sub>
+
+	<!-- Abbreviation -->
+	- Defines an abbreviation, and usually includes its full description.
+	- Hover word to see meaning.
+	<abbr title=""></abbr>
+
+	<!-- Block Quote -->
+	- Used for longer quotes that take up an entire paragraph.
+	- Usually rendered visually by indentation
+	- Can contain other elements
+
+	<!-- Quote -->
+	- Used for shorter quotes that sit within a paragraph.
+
+	<!-- Cite -->
+	- Usually goes with <blockquote></blockquote> or <q>, It designates a source document or message for the information quoted.
+
+	<!-- Insert -->
+	- Used to show content that has been inserted into a document
+	- Usually underlined
+
+	<!-- Delete -->
+	- Used to show text that has been deleted
+	- Usually has a line through it
+
+	<!-- Strike -->
+	- Indicates something that is no longer accurate or relevant (but that should not be deleted)
+	- Usually displayed with a line through the center.
+
+	<!-- Small -->
+	- Represents side-comments and small print, including copyright and legal text.
+	- Makes the font size one size smaller (for example, from large to medium)
+	<!-- &lt;small&gt - to make less than sign appear -->
+	------------------------------------------
+	<!-- Mod01-02 -->
+
+	Link Formatting:
+
+	Writing Links - <a href="http://www.google.com">Go to Google</a>
+
+	- Links are created using the <a> (anchor <element></element>)
+
+	Types of links:
+	1. Absolute URL
+	- Takes the form: protocol://domain/path
+	- The protocol is usually http://,but can also be https://,ftp://,gopher://,or file://
+	-You must use absolute URLs when referring to links on different servers
+	< a href="https://mail.google.com">Google Mail</a>
+
+	2. Relative URL
+	- A shorthand way to tell the browser where a page is in relation to the current page
+	- If all of the files in your site are in one folder, you simply use the file name for that page.
+	- If your site is organized into separate folder (or directories), you need to tell the browser how to get form the page it is currently on to the page that you are linking to
+
+	Email Links:
+	- 
+
+	Basic:
+	<a href="mailto:someone@yoursite.com">Email Us</a>
+
+	Adding a Subject:
+	<a href="mailto:someone@yoursite.com?subject=Mail from Our Site">Email Us</a>
+
+	Opening Links in a New Window
+	- To open links in a new window, use the target attribute in the opening <a> tag.
+
+	<a href="http://facebook.com" target="_blank">Facebook</a>
+
+	<!-- Linking to a Specific Part of the Same Page -->
+	- To jump to a specific section of the same page, you need to place two items:
+
+	1. A basic link command pointing to another section of the page.
+	<a href="#targetname"> Back to Top</a>
+
+	2. The point where the page will jump.
+	<section id="targetname">This is the top section</section>
+
+	<!-- List Formatting -->
+	Three types of lists:
+	- Ordered lists
+	-lists where each item in the list is numbered
+	- Created with the <ol> element.
+	- Each item in the list is placed between an opening <li> tag and a closing </li> tag
+	- Unordered lists
+	- Definition lists
+
+	Unordered List
+	- A list that begins with a bullet point
+	- Created with <ul> element.
+	- Each item in the list is placed between an opening <li> tag and a closing </li> tag
+
+	Nested Lists
+	- A second list can be placed inside
+
+	Definition Lists
+	- Made up of a set of terms along with the definitions for each of those terms
+	- A definition list is created with the <dl> element
+	- Inside the <dl> element are usually <dt> and <dd> elements
+	- <dt> is used to contain the term being defined
+	- <dd> is used to contain the definition
+
+	<!-- Adding Images -->
+	- The <img> element is used to add images to a web page
+	- An image element must carry two attributes:
+	- src - indicates the source of an image; usually a relative URL
+	- alt - describes the content of an image; It should give an accurate description of the image content so it can be understood by screen reader software.
+
+	src - set the source of the image
+	alt - appears when image is not available
+
+	Tips:
+	- Save the images at the size you will be using them on the web page and in the appropriate format
+	- Photographs are best saved as JPEGS; illustrations or logos that use flat colors are better saved as GIFs
+
+	Image-map:
+	- The <map> tag is used to define an interactive map over an image
+	- An image-map is an image with clickable areas
+
+	<!-- Tables -->
+	Tables
+	- The <table> element is used to add tables to a web page.
+	- Inidcate the start of each row using the opening <tr> tag. (The tr stands for table row) At the end of the row, use a closing </tr> tag.
+	- Each cell of a table is represented using a <td> element. (The td stands for table data) At the end of each cell, use a closing </td> tag.
+
+	Table Headings
+	- The <th> element is used to represent the heading for either a column or a row. (the th stands for table heading)
+	- Even if a cell has no content, still use a <td> or <th> element to represent the presence of an empty cell otherwise the table will not render correctly.
+	- You can use the scope attribute on the <th> element to indicate whether it is a heading for a column or a row. It can take the values: row to indicate a heading for a row or col to indicate a heading for a column.
+
+	Spanning Columns
+	- The colspan attribute can be used on a <th> or <td> element and indicates how many columns that cell should run across.
+
+	Forms
+	- HTML Forms allow you to collect information form visitors to your site
+
+	Form Controls
+	- Adding Text (text input, password input, text area)
+	- Making Choices (radio buttons, checkboxes, drop-down boxes)
+	- Submitting Forms (submit buttons, image buttons, file upload)
+
+	Form Structure:
+	<form action="http://www.example.com/subscribe.php" method="get">
+	</form>
+
+	Required attributes:
+	1. type - defines the type of form
+	2. name - defines the unique identifier for that input within the form
+
+	Text Input
+	<form action="" method="">
+		<input type="text" name="username">
+	</form>
+
+	sample of input types:
+	1. text
+	2. number
+	3. password
+
+	Other attributs:
+	1. placeholder - defines a non-selectable placeholder text that only appears when the input is empty
+	<input type="text" name="username" placeholder="e.g. john01">
+
+	2. required - tells the browser that the input is required (no value required)
+
+	3. disabled - disables the input (no value required)
+	<input type="text" name="username" placeholder="e.g. john01" disabled="true">
+
+	Text Area
+	<form action="" method="">
+		<textarea name="comments">Write your comment here</textarea>
+	</form>
+
+	note: Selected is for dropdown
+	checked is for radio buttons
+
+	File Input
+	<form action="" method="">
+		<input type="file" name="song">
+		<input type="submit" name="song">
+	</form>
+
+	Button
+	<form action="" method="">
+		<button><img src="images/add.gif" alt="add">Add</button>
+	</form>
+
+	Grouping Form Elements
+	1. <fieldset> and <legend> elements are used to group related forms
+
+	<fieldset>
+		<legend>Contact details</legend>
+		<label>Email: <input type="text" name="email"></label><br>
+		<label>Mobile <input type="number" name="mobile"></label><br>
+	</fieldset>
+
+	Semantic HTML
+	- Refers to the idea that HTML markup should convey the underlying meaning of contents - not their appearance
+
+	Document Info (HTML Head)
+	- The <head> element defines a container for a web page's metadata (data about data)
+
+	HTML Head
+	<head>
+		<meta charset="utf-8">
+		<title>My Webpage</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<style>
+			p{
+				color:red;
+			}
+		</style>
+	</head>
+
+HTML Comments:
+- Add a comment by placing text between these characters:
+	<!-- this is a comment -->
+- Comments are not visible to users in the browser but can be viewed by anyone looking at the source code
+- Comments are used to indicate where sections of the page start or end, and to pass on notes to help anyone who is looking at the code understand it.
+
+<!-- https://bit.ly/2Q9JgFU - First Example Arts Project -->
+
+<!-- DOM - Document Object Model -->
+The HTML DOM is a standard object model and programming
+
+
+
+

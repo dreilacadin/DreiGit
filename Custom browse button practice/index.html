@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<!-- sets the default zoom for ANY device -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+	<!-- sets compatibility for your browsers -->
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<title> DOM Activity 3 </title>
+	<!-- Imports font awesome -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+	<!-- Imports Google Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+	<link rel="icon" type="text/png" href="./favicon.png">
+	<!-- Import custom css -->
+	<link rel="stylesheet" type="text/css" href="./assets/css/main.css">
+	<script type="text/javascript" src="./assets/js/script.js"></script>
+</head>
+<body>
+	<div class="container">
+		<header>
+			<h1> TUITT CODING BOOTCAMP </h1>
+		</header>
+		<main>
+			<!-- div for main dashboard -->
+			<div class="main-dashboard">
+				<h3 class="inline-blocked"><i class="fas fa-tachometer-alt"></i> Dashboard </h3>
+				<!-- Dashboard thumbnail container -->
+				<div class="dashboard-thumbnail">
+					<!-- First dashboard thumbnail -->
+					<div id="post-circle" class="dashboard-circle">
+						<i id="fileicon" class="fas fa-file-alt"></i>
+					</div>
+					<div class="inline-blocked">
+						<p class="dashboard-text"> 5 </p>
+						<p class="dashboard-text"> posts </p>
+					</div>
+				</div>
+				<!-- Second dashboard thumbnail -->
+				<div class="dashboard-thumbnail">
+					<div id="image-circle" class="dashboard-circle">
+						<i id="imageicon" class="fas fa-images"></i>
+					</div>
+						<div class="inline-blocked">
+							<p class="dashboard-text"> 13 </p>
+							<p class="dashboard-text"> images </p>
+						</div>
+				</div>	<!-- end of second dashboard thumbnail -->
+			</div> <!-- end of dashboard thumbnail container --> 
+			<!-- end of div for main dashboard -->
+			<div class="new-post">
+				<h3><i class="fas fa-plus-circle"></i> New Post </h3>
+
+				<form class="hide-overflow" method="" action="">
+					<input id="post-title" type="text" name="post" placeholder="Enter your post title"></input>
+					<input id="post-content" type="text" name="content" placeholder="Enter your post content here"></input>
+					<button id="btn-publish" class="btn btn-blue" type="submit" name="button"> Publish </button>
+				</form>
+			</div> 
+			<!-- end of new post -->
+			<div class="gallery">
+				<h3><i class="fas fa-cloud-upload-alt"></i> Upload Image</h3>
+				<div class="img-set-holder">
+					<img class="img-set" src="https://media.giphy.com/media/3ohs4ocF08LTmhsaFW/giphy.gif" alt="describe the image">
+					<img class="img-set" src="https://media.giphy.com/media/3ohs4ocF08LTmhsaFW/giphy.gif" alt="describe the image">
+					<img class="img-set" src="https://media.giphy.com/media/3ohs4ocF08LTmhsaFW/giphy.gif" alt="describe the image">
+					<img class="img-set" src="https://media.giphy.com/media/3ohs4ocF08LTmhsaFW/giphy.gif" alt="describe the image">
+					<img class="img-set" src="https://media.giphy.com/media/3ohs4ocF08LTmhsaFW/giphy.gif" alt="describe the image">
+				</div>
+				<form class="hide-overflow" action="" method="">
+					<input id="btn-browse" type="file" multiple="multiple">
+					<label for="btn-browse" class="btn btn-blue btn-indianred">Browse</label>
+					<!-- <button onclick="browse()" id="btn-browse" class="btn btn-blue btn-indianred"> Browse </button> -->
+					<button type="data" id="btn-upload" class="btn btn-green" onclick="button()"> Upload </button>
+				</form>
+			</div>
+			<!--end of gallery-->
+		</main>
+		<footer>
+			<p> Tuitt Coding Bootcamp &copy; 2018 </p>
+		</footer>
+	</div>
+</body>
+</html>

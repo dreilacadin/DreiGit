@@ -1,0 +1,17 @@
+Activity no. 1
+
+create a folder -> Documents
+
+web-portfolio
+	assets
+		css
+		js
+		images
+
+create files
+	web-portfolio -> index.html
+	assets
+		css -> style.css
+		js -> script.js
+		images
+		

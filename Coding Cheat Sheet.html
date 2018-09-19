@@ -1,0 +1,119 @@
+Make coding template in terminal:
+mkdir mod02-0X && cd mod02-0X && touch index.html && mkdir assets && cd assets && mkdir css js img && cd css && touch main.css && cd ../js && touch script.js
+
+
+Important metas, scripts and links:
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<link rel="stylesheet" type="text/css" href="./assets/css/main.css">
+	<link rel="stylesheet" type="text/css" href="./assets/css/bootstrap.css"> <!-- Bootstrap CSS -->
+	<!-- jQuery CDN -->
+	<script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+	<!-- Popper.js CDN -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<!-- Bootstrap JS -->
+	<script type="text/javascript" src="./assets/js/bootstrap.js"></script>
+
+<!-- CSS Grid -->
+/* Desktop-default-widths */
+.col-lg-1 { width: 8.33%; }
+.col-lg-2 { width: 16.66%; } /* don't round up */
+.col-lg-3 { width: 25%; } /* round this up */
+.col-lg-4 { width: 33.33%; }
+.col-lg-5 { width: 41.66%; }
+.col-lg-6 { width: 50%; }
+.col-lg-7 { width: 58.33%; }
+.col-lg-8 { width: 66.66%; }
+.col-lg-9 { width: 75%; }
+.col-lg-10 { width: 83.33%; }
+.col-lg-11 { width: 91.66%; }
+.col-lg-12 { width: 100%; }
+
+<!-- Media Query Syntax -->
+/* Mobile Styles */
+/*
+	@media: says you're using a media query
+	"only screen": media type, what medium are we using. ex: screen, handheld, tv, projection, etc..
+	(max-width: 400px) -> Media feature, condition for our medium.
+	Note: you could use more than 1 media feature.
+
+	https://developer.mozilla.org/en-US/docs/Web/CSS/@media
+
+*/
+@media only screen and (max-width: 400px) {
+	body {
+		background-color: #F09A9D; /* Red */
+	}
+}
+
+/* Tablet Styles */
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+	body {
+		background-color: #F5CF8E; /* Yellow */
+	}
+}
+
+ /* Desktop Styles */
+ @media only screen and (min-width: 961px) {
+ 	body {
+ 		background-color: #B2D6FF; /* Blue */
+ 	}
+ }
+
+ 	<!-- input groups -->
+	<div class="input-group">
+		<div class="input-group-prepend">
+			<span class="input-group-text"> @ </span>
+		</div>
+		<input type="text" name="username" placeholder="Username" class="form-control"></input>
+
+	<div class="input-group my-3">
+		<input type="text" class="form-control" name="email" placeholder="Enter email here"></input>
+		<div class="input-group-append">
+			<span class="input-group-text"> @gmail.com </span>
+		</div>
+	</div>
+	</div>
+
+	<!-- forms -->
+	<form>
+		<div class="form-group">
+			<label for="emailadd"> Email Address </label>
+			<input type="email" class="form-control" name="emailadd" id="emailadd" placeholder="Enter email here"></input>
+			
+			<label for="password"> Password </label>
+			<input type="password" class="form-control" name="password" id="password" placeholder="Enter password here"></input>
+		</div>
+		<div class="form-check">
+			<input type="checkbox" class="form-check-input" name="remember" id="remember"></input>
+			<label class="form-check-label" for="remember"> Remember me </label>
+		</div>
+		<input type="submit" value="Log In" class="btn btn-primary btn-custom"></input>
+	</form>
+
+Capstone 1 Requirements:
+1. Minimum of 5 pages - Landing, Home, Contact Us, About Us, Gallery
+2. Website should be responsive
+3. No lorem ipsum or any placeholder text. 
+4. No horizontal scroll
+5. No stretched / pixelated images
+6. Proper directory structure
+7. Copyright disclaimer
+8. Navigation and Footer
+	8a. No dead links.
+9. Use of frameworks is highly recommended.
+10. No templates
+11. No bootstrap website
+
+Developer Portfolio
+1. Full name
+2. A decent photo of yourself
+3. Description of who you are
+4. Skills (Frontend skills)
+5. Working links to your own social media accounts
+	- Facebook, Twitter, Instagram, LinkedIn, Github, Gitlab
+6. Link to your capstone 1 website
+
+*** Host your websites in GitHub ***

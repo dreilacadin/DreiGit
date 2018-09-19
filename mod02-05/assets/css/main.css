@@ -1,0 +1,30 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.col {
+	height: 100px;
+	border: 1px solid black;
+}
+
+.row {
+	margin-bottom: 10px;
+}
+
+.first-row {
+	background-color: lightblue;
+}
+
+.second-row {
+	background-color: turquoise;
+}
+
+.third-row {
+	background-color: orangered;
+}
+
+.fourth-row {
+	background-color: indianred;
+}

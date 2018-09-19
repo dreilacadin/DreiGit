@@ -1,0 +1,27 @@
+* {
+	margin: 0;
+}
+
+.firstDiv {
+	width: 200px;
+	height: 200px;
+	background: red;
+	float: left;
+}
+
+.secondDiv {
+	width: 200px;
+	height: 200px;
+	background: yellow;
+	float: left;
+}
+
+#firstP {
+	background: blue;
+	float: left;
+}
+
+#secondP {
+	background-color: green;
+	float: left;
+}

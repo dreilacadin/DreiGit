@@ -1,0 +1,32 @@
+<!-- CSS Box Model -->
+
+FOR CSS, everything is a BOX!
+
+Each HTML element is either a "block" box or an "inline" box.
+
+
+<!-- *Avoid vertical padding for inline elements* -->
+
+<!-- Types of positioning  -->
+1. Static (Margins/padding)
+2. Relative ( original position)
+3. Absolute (browser window)
+ - Relatively absolute
+ 	- 1st: find parent to serve as a reference
+ 	  2nd: put position (absolute, relative, fixed)
+ 	  3rd: child/descendant should have absolute positioning
+ 	  4th: feel free to style around
+
+<!-- Floating elements -->
+-Block elements always appeared vertically one after another, effectively limiting us to a single-column layout.
+
+-"Floats" let us put block-level elements side-by-side instead of on top of each other.
+
+html {
+  scroll-behavior: smooth;
+}
+-for smooth scrolling
+
+min-height: for auto rendering divs
+
+img [alt*="service"] - wildcard selector

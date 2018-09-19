@@ -1,0 +1,48 @@
+/*h1 {
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	margin:	0px;
+	padding: 10px;
+	width: 100%;
+	background-color: grey;
+	z-index: 1; or any other positive value 
+}
+
+p {
+	position: relative;
+	top: 70px;
+	left: 70px;
+	height: 1000px;
+	background-color: #efefef;
+}
+*/
+div {
+	width: 100px;
+	height: 100px;
+	border: 1px solid black;
+	position: absolute;
+}
+
+.blue {
+	background-color: blue;
+	top: 20px;
+	left: 20px;
+	z-index: 1;
+	opacity: 0.1;
+}
+
+.yellow {
+	background-color: yellow;
+	top: 40px;
+	left: 40px;
+	z-index: 1;
+
+}
+
+.orange {
+	background-color: orangered;
+	top: 60px;
+	left: 60px;
+	z-index: 1;
+}

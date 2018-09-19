@@ -1,0 +1,206 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,body{height:100%;}
+.carousel,.item,.active{height:100%;}
+.carousel-inner{height:100%;}
+
+.navbar-custom {
+    background-color: #087E8B !important;
+    color: #fff;
+}
+
+/* change the brand and text color */
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+    color: rgba(255,255,255,.9);
+}
+
+/* change the link color */
+.navbar-custom .navbar-nav .nav-link {
+    color: rgba(255,255,255,1);
+}
+
+/* change the color of active or hovered links */
+.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:hover .nav-link {
+    color: #ffffff;
+}
+
+/*this is a white icon with 50% opacity*/
+ .navbar-light .navbar-toggler-icon {
+   color: #fff !important;
+ }
+
+.d-block {
+    height: 100vh;
+}
+
+.intro-container {
+    display: table-cell;
+    height: 570px;
+    background: rgba(255,255,255,0.8);
+    margin: 0;
+    padding: 30px 50px;
+    vertical-align: middle;
+}
+
+.rooms-container {
+    display: table-cell;
+    background: rgba(9, 160, 221, 0.9);
+    height: 550px;
+    margin: 0;
+    padding: 90px 50px;
+    vertical-align: middle;
+    text-align: right;
+    color: #FFFFFF;
+    opacity: 0.9;
+}
+
+.moments-container {
+    display: table-cell;
+    height: 550px;
+    background: rgba(48, 206, 179, 0.8);
+    margin: 0;
+    padding: 90px 50px;
+    vertical-align: middle;
+    color: #FFFFFF;
+}
+
+.location-container {
+    display: table-cell;
+    height: 550px;
+    background: rgba(9, 160, 221, 0.8);
+    margin: 0;
+    padding: 90px 50px;
+    vertical-align: middle;
+    text-align: right;
+    color: #FFFFFF;
+}
+
+.iframe-container{
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%; /* Ratio 16:9 ( 100%/16*9 = 56.25% ) */
+}
+.iframe-container > *{
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.footer-bg {     
+    background-image: url('../img/waves.jpg'); 
+    background-repeat:no-repeat;
+    background-position:center;
+    width: 100%;
+}
+
+.center-table {
+    display: table;
+    height: 480px;
+    background: rgba(0,0,0,0) url(https://wpcdn.hotelhosting.co/wp-content/uploads/sites/1253/2016/10/checkavailbg-1.jpg) no-repeat fixed center center / 100% auto;
+    width: 100%;
+    margin: 0px;
+}
+
+.center-table p {
+    display: table-cell;
+    margin: 0;
+    color: white;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.textlink {
+    font-family: 'Montserrat',sans-serif;
+    color: #ffffff;
+    font-size: 60px;
+    border-bottom: 4px solid #ffffff;
+}
+
+.textlinkcopy {
+    font-size: 18px;
+}
+
+.center-table-bodycopy {
+    display: table;
+    height: auto;
+    background: rgba(0,0,0,0) url(https://wpcdn.hotelhosting.co/wp-content/uploads/sites/1253/2017/02/PearlFarmBeachResort-SamalPhilippines-bg122.jpg) no-repeat fixed center center / 100% auto;
+    width: 100%;
+    margin: 0px;
+}
+
+.center-table-rooms {
+    display: table;
+    height: auto;
+    background: rgba(0,0,0,0) url(https://wpcdn.hotelhosting.co/wp-content/uploads/sites/1253/2016/11/PearlFarmBeachResort-SamalPhilippines-bg2-1.jpg) no-repeat fixed center center / 100% auto;
+    width: 100%;
+    margin: 0px;
+}
+
+.center-table-moments {
+    display: table;
+    height: auto;
+    background: rgba(0,0,0,0) url(https://images.pexels.com/photos/237272/pexels-photo-237272.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940) no-repeat fixed center center / 100% auto;
+    width: 100%;
+    margin: 0px;
+}
+
+.center-table-location {
+    display: table;
+    height: auto;
+    background: rgba(0,0,0,0) url(https://images.pexels.com/photos/531035/pexels-photo-531035.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260) no-repeat fixed center center / 100% auto;
+    width: 100%;
+    margin: 0px;
+}
+
+.back-to-top {
+    cursor: pointer;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display:none;
+}
+
+.btn {
+      transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out, border-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out !important;
+      border-radius: 150px !important;
+}
+
+.iframe-container {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h2, p {
+    font-family: 'Raleway', sans-serif;
+}
+
+#brandlogo {
+    font-family: 'Cinzel Decorative', cursive;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+

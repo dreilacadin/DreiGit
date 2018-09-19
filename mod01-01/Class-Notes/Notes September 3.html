@@ -1,0 +1,192 @@
+Notes September 3
+
+<!-- Quote of the day -->
+"Design is thinking made visual - Saul Bass"
+
+<!-- My TUITT Github repository address --> 
+https://github.com/lacadindrei/web-portfolio.git
+
+<!-- Rules for resource finding  -->
+Read the documentation
+Use your Google-fu
+Ask your classmate/instructors
+
+<!-- Meaning of MINGW64 -->
+Minimalist GNU for Windows
+GNU = GNU's Not Unix
+
+<!-- GitHub is like a locker -->
+
+<!-- To stage ALL files in git -->
+git add -A 
+
+<!-- To commit files with a MESSAGE -->
+git commit -m "Commit Message"
+
+<!-- To setup remote origin (Alias) -->
+git remote add origin https://github.com/lacadindrei/web-portfolio.git
+
+Git push: push from local to your repository (gitlab/github)
+
+<!-- First time setup: -->
+1. Go to project directory
+2. git init (initializes a connection between your local and remote repository)
+3. git add - A (adds ALL files and directories for the staging area)
+4. git status (to check which files are added to be committed)
+5.  git commit -m "<message>" (Commits all changes done/added/removed) Note: message should be descriptive AND present tense
+6. git remote add <alias> <link> ex. git remote and origin https://....
+7. git push <alias> master ex. git push origin master
+
+
+<!-- For updates: -->
+1. git add - A
+2. git commit -m "<message>"
+3. git push <alias> master
+
+<!-- For pulling the first time-->
+1. Make the directory you want
+2. git init
+3. git remote add <alias> <link>
+4. git pull <alias> master
+
+<!-- For future pulls -->
+1. Go to same project folder
+2. git pull <alias> master
+
+SOP
+Working in class/home
+1. (start of day) Pull from gitlab
+2. Work
+3. (end of day/night) Push to gitlab
+
+In your documents folder
+create a new directory called web-portfolio2
+
+<!-- To check the alias details -->
+git remote -v
+
+<!-- to list items with details -->
+ls -l
+
+
+<!-- The internet and the world -->
+how the internet started
+1957 - Time sharing
+1960 - Packet switching
+*Packet loss - Loss of data through transmission
+
+ARPANET - First network
+(Advanced Research Project Agencies Network)
+- UCLA
+- Standford
+- University of California in Utah
+- University of California in Sta Barbara
+*Schools used ARPANET for research
+
+<!-- Founders of the internet: --> 
+Vint Cerf and Bob Kahn are recognized as the fathers of internet.
+
+TCP/IP - Transmission Control Protocol/Internet Protocol
+
+Three layers of network:
+1. Application
+2. Internet - How computers talk
+3. Network Interface - Physical connection
+
+IP - Internet protocol
+Modem - Modulator/Demodulator
+ISP - Internet Service Provider
+
+<!-- Is it possible for an individual user to bypass ISPs altogether and connect directly to the "Internet backbone” -->?
+-Yes but not practical as it's expensive and you have to manage your own network and make yourself an ISP.
+
+B. Internet Layer
+The IP has 3 functions
+1. Identification of each device connected to the network
+2. The format of the messages
+3. Routing the messages from the source to the destination
+
+DNS - Domain Name System
+
+<!-- Tuitt Blog Site -->
+https://blog.tuitt.com/
+
+Parts of a Domain
+www.example.com
+subdomain - second-level domain - TLD (Third-level domain)
+
+Packet routing - Sending packets
+
+<!-- Difference of the Internet and WWW -->
+The internet - connection of computers
+The World Wide Web - The system we use to access the Internet
+
+
+Front-end is the client
+Back-end is the server
+
+URL - Uniform Resource Locator
+Protocol - domain name - directory - file - file extension
+
+--------------------------------------------------
+<!-- Discussion from sir Alan Beraquit -->
+
+Requirements and Expectations:
+
+1. Capstone Projects
+-Capstone Project 1: Static Website
+-Capstone Project 2: E-Commerce Website (Dynamic Website)
+-Capstone Project 3: Using the Laravel Framework.
+
+Student Portfolio: Aims to show the personal information and showcase the skills acquired by the student.
+
+<!-- Timeline and Schedule -->
+1st Week Lessons and Activities
+2nd Week Lessons and Activities
+Capstone Development - Capstone 1
+4th Week Lessons and Activities
+5th Week Lessons and Activities
+6th Week Lessons and Activities
+Capstone Development - Capstone 2
+Capstone Development - Capstone 2
+9th Week Lessons and Activities - Laravel Framework
+Capstone Development - Capstone 3
+Capstone Development - Capstone 3
+12th Week Completion of Requirements
+13th Week Graduation and Clearance Form Submission
+
+--------------------
+.aboutMe{
+position:absolute;
+text-align:justify;
+/**background: rgba(0,0,0,0.6);**/
+width: 70%;
+font-size: 18px;
+
+}
+.footer {
+position:absolute;
+bottom:0;
+width:70%;
+height:8px;   /* Height of the footer */
+}
+
+h1{
+margin-left:0;
+/*background-color: rgba(0,0,0,0.6);*/
+text-transform: uppercase;
+letter-spacing: 3px;
+font-family: 'Cinzel', serif;
+font-size: 273%;
+background: rgba(0,0,0,0.3)
+width: 100%;
+}
+
+h3{
+text-transform: uppercase;
+letter-spacing: 5px;
+padding-top: -50px;
+line-height: 5;
+font-size: 90%;
+margin-top: -25;
+}

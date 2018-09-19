@@ -1,0 +1,55 @@
+* {
+	margin: 0;
+	/*padding: 0;*/
+	box-sizing: border-box;
+}
+
+div	{
+	padding: 20px;
+}
+
+.grandparent {
+	background-color: skyblue;
+	position: fixed;
+}
+
+.parent {
+	background-color: pink;
+}
+
+/* Static positioning */
+/*p {
+	padding-left: 50px;
+}
+
+input[type="submit"] {
+	margin-left: 20px;
+}
+
+h1 {
+	margin-bottom: -20px;
+}*/
+/*relative postioning
+strong {     
+	background-color: #00FFFF;     
+	position: relative;
+	top: 100px;
+	left: 100px;    
+}
+
+p {
+	position: relative;
+	left: 50px;
+	top: 20px;
+}
+*/
+
+/*absolute positioning*/
+strong {
+	position: absolute;
+	background-color: yellow;
+	top: 10px;
+	left: 10px;
+}
+
+.fixed

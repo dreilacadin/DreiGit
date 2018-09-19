@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title> Survey Form </title>
+</head>
+<body>
+<fieldset style="width: 500px">
+	<legend>Your Details:</legend>
+	<label>Name: <input type="text" name="name"></input></label><br>
+	<label>Email: <input type="email" name="email"></input></label><br>
+</fieldset>
+<br>
+<br>
+<fieldset style="width: 500px">
+	<legend>Your Review:</legend>
+	<br>
+	<label>How did you hear about us?</label>
+	<select name="hear">
+		<option value="google">Google</option>
+		<option value="facebook">Facebook</option>
+		<option value="instagram">Instagram</option>
+	</select>
+	<br>
+	<br>
+	<label>Would you visit again?</label><br>
+	<input type="radio" name="visit" value="yes">Yes</input>
+	<input type="radio" name="visit" value="no">No</input>
+	<input type="radio" name="visit" value="maybe">Maybe</input>
+	<br>
+	<br>
+	<label>Comments:</label>
+	<br>
+	<textarea name="comments" placeholder=" " rows="6" cols="60"></textarea>
+	<br>
+	<br>
+	<input type="checkbox" name="updates" value="updates" checked>Sign me up for email updates</input>
+	<br>
+	<!-- submit -->
+	<input type="submit" value="Submit review">
+</fieldset>
+</body>
+</html>

@@ -1,0 +1,95 @@
+* {
+	/*reset*/
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.page {
+	width: 900px;
+	margin: 0 auto;
+/*	border: 1px solid red;*/
+	background-color: pink;
+}
+.menu {
+	height: 100px;
+	background-color: #52cfd1;
+}
+
+.sidebar {
+	height: 300px;
+	background-color: #ff6090;
+	width: 200px;
+	float: left;
+}
+
+.content {
+	width: 650px;
+	height: 500px;
+	background-color: #fa8f2b;
+	float: left;
+	padding: 20px;
+	overflow: hidden;
+}
+
+.footer {
+	background-color: #91dfff;
+	clear: both;
+}
+
+img {
+	width: 300px;
+	height: 200px;
+	float: left;
+	margin: 10px;
+	border: 1px solid black;
+	padding: 10px;
+}
+
+.clear:after {
+ 	/*look for the last element INSIDE the clear class and add the style below. */
+	content: ""; /*invisible element*/
+	clear: both; /*ignores all floats above it. */
+	display: block; /*a generic div element */
+}
+
+/*in summar: this is the CSS equivalent of
+	<div style="clear:both"></div> in HTML */
+
+.container {
+	background-color: pink;
+}
+
+.column	{
+	background-color: #769ECB;
+	height: 160px;
+	width: 31%;
+	margin: 20px 1.16%;
+	float: left;
+	border-radius: 30px;
+	height: 100%;
+	border: 2px solid white;
+}
+
+p {
+	margin: 20px;
+	overflow: hidden;
+}
+
+.avatar {
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	background-color: #D6E9FE;
+	margin: 25px 20px;
+	float: left;
+
+}
+
+.username {
+	margin-top: 30px;
+}
+
+.comment {
+	margin-top: 10px;
+	overflow: hidden;
+}
